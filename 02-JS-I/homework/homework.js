@@ -190,7 +190,6 @@ function esPositivo(numero) {
   }
 } 
   
-}
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -254,13 +253,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra.length > 1) {
-    return "dato incorrecto"
+  if(letra.length > 1){
+    return "Dato incorrecto"
   }
-  if(letra=== "a" || letra === "e" || letra === "i" || letra === "o"|| letra === "u") {
-    return "es vocal"
+  if(letra=== "a" || letra === "e" || letra === "i" || letra === "o"|| letra === "u"){
+    return "Es vocal"
   } 
-  return "dato incorrecto"
+  return "Dato incorrecto"
 }
 
 
