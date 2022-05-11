@@ -127,7 +127,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x % y;
+  return x % y;
   
   
 }
@@ -198,7 +198,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.floor(num); 
+  return Math.ceil(num); 
   
   
   
@@ -232,7 +232,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return srt + '!'; 
+  return str + '!'; 
   
   
 }
@@ -242,7 +242,8 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
  
- return "Hola" + nombre; 
+ var combinados = nombre + ' ' + apellido ; 
+ return  combinados; 
   
   
 }
@@ -251,8 +252,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = obtenerSaludo(Martin); 
-  return saludo; 
+  return 'Hola' + nombre + '!'; 
  
   
 }
